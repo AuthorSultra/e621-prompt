@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# always use unix line endings in all the files
+* text=auto eol=lf
+
+# lol, git fucks up lineendings in images
+*.png binary
